@@ -3,7 +3,7 @@
 A stunning, dark-mode portfolio website for Disha — Regional Manager & Robotics Program Manager.
 
 ## 🌐 Live Site
-Deployed on GitHub Pages: [View Portfolio](https://YOUR_USERNAME.github.io/Disha_portfolio)
+Deployed on GitHub Pages: [View Portfolio](https://dishagoswami2502.github.io/Disha_portfolio/)
 
 ## ✨ Features
 - 🎨 Dark mode with glassmorphism design
