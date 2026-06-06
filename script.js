@@ -84,6 +84,26 @@ const ioStats = new IntersectionObserver((entries) => {
 document.querySelectorAll('.phs-num[data-count]').forEach(el => ioStats.observe(el));
 
 // ==========================================
+// SKILL BAR ANIMATION
+// ==========================================
+const skillBars = document.querySelectorAll('.csr-fill');
+const ioBars = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const targetWidth = entry.target.style.width;
+      entry.target.style.width = '0%';
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          entry.target.style.width = targetWidth;
+        });
+      });
+      ioBars.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.3 });
+skillBars.forEach(bar => ioBars.observe(bar));
+
+// ==========================================
 // SCROLL-TRIGGERED FADE IN
 // ==========================================
 const fadeTargets = document.querySelectorAll(
