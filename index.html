@@ -3,1009 +3,683 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Disha Goswami — Regional Manager & Robotics Program Manager. Robotics, Industry 4.0, PLC, Embedded Systems, Automation." />
-  <meta property="og:title" content="Disha Goswami — Robotics & Automation Leader" />
-  <meta property="og:description" content="Explore Disha's portfolio — 3+ years in Robotics, Industry 4.0, Embedded Systems & Program Leadership." />
-  <title>Disha — Robotics & Automation Leader</title>
-
-  <!-- Google Fonts -->
+  <title>Disha Goswami — Robotics & Program Leader</title>
+  <meta name="description" content="Disha Goswami — Regional Manager & Robotics Program Leader. From hands-on robotics engineering to leading client partnerships with Capgemini, IDEMIA & government bodies." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;0,14..32,900;1,14..32,400;1,14..32,500&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=10" />
 </head>
 <body>
 
-  <!-- ===================== TOP NAV ===================== -->
-  <nav class="topnav" id="topnav">
-    <div class="topnav-inner">
-      <a href="#" class="topnav-logo">
-        <span class="logo-d">D</span><span class="logo-rest">isha<span class="logo-dot">.</span></span>
-      </a>
-      <div class="topnav-links" id="topnavLinks">
-        <a href="#about-tab" class="tnl" id="tab-about-btn">About</a>
-        <a href="#portfolio-tab" class="tnl active" id="tab-portfolio-btn">Portfolio</a>
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">DG<span class="logo-dot">.</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#journey" class="nav-link">Journey</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#passion" class="nav-link">Passion</a>
+        <a href="#contact" class="nav-link">Contact</a>
       </div>
-      <a href="Disha_resume.pdf" download class="topnav-resume-btn" id="topnav-resume">
+      <a href="Disha_resume.pdf" download class="nav-cta" id="nav-cta">
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         Resume
       </a>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
+      <button class="nav-burger" id="navBurger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
     </div>
+    <!-- Mobile menu -->
+    <div class="nav-mobile" id="navMobile">
+      <a href="#about" class="nm-link">About</a>
+      <a href="#journey" class="nm-link">Journey</a>
+      <a href="#work" class="nm-link">Work</a>
+      <a href="#passion" class="nm-link">Passion</a>
+      <a href="#contact" class="nm-link">Contact</a>
+      <a href="Disha_resume.pdf" download class="nm-link nm-cta">Download Resume</a>
+    </div>
   </nav>
 
-  <!-- ===================== PAGE LAYOUT ===================== -->
-  <div class="page-layout">
+  <main>
 
-    <!-- ======== LEFT SIDEBAR ======== -->
-    <aside class="sidebar" id="sidebar">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
 
-      <!-- Profile photo -->
-      <div class="profile-photo-wrap">
-        <img
-          src="WhatsApp Image 2026-05-27 at 10.27.25 PM.jpeg"
-          alt="Disha — Robotics & Automation Leader"
-          class="profile-photo"
-          id="profile-photo"
-        />
-        <div class="open-to-work-badge" id="open-badge">
-          <span class="otw-dot"></span>
-          Open to Work
+        <div class="hero-left">
+          <div class="hero-badge">
+            <span class="hb-dot"></span>
+            Open to Opportunities
+          </div>
+          <h1 class="hero-title">
+            Robotics Engineer<br/>
+            <span class="hero-title-accent">turned</span> Client<br/>
+            Leader.
+          </h1>
+          <p class="hero-sub">
+            I started building robots from scratch. Today I build 
+            <strong>client relationships, strategic programs, and technology ecosystems</strong> 
+            — for corporates, governments, and communities across India.
+          </p>
+          <div class="hero-ctas">
+            <a href="#work" class="btn-primary">See My Work</a>
+            <a href="#contact" class="btn-ghost">Let's Talk</a>
+          </div>
+          <div class="hero-social">
+            <a href="mailto:dishagoswami2502@gmail.com" class="hs-link" aria-label="Email">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/disha-goswami" target="_blank" class="hs-link" aria-label="LinkedIn">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-img-frame">
+            <img src="WhatsApp Image 2026-05-27 at 10.27.25 PM.jpeg" alt="Disha Goswami" class="hero-img" id="heroImg" />
+            <div class="hero-img-badge hib-1">
+              <span>🤝</span> Client Leader
+            </div>
+            <div class="hero-img-badge hib-2">
+              <span>🤖</span> Robotics
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Stat strip -->
+      <div class="hero-stats">
+        <div class="hstat">
+          <div class="hstat-num" data-count="3">0</div>
+          <div class="hstat-label">Years of Experience</div>
+        </div>
+        <div class="hstat-div"></div>
+        <div class="hstat">
+          <div class="hstat-num" data-count="500">0</div>
+          <div class="hstat-suffix">+</div>
+          <div class="hstat-label">Students Impacted</div>
+        </div>
+        <div class="hstat-div"></div>
+        <div class="hstat">
+          <div class="hstat-num" data-count="10">0</div>
+          <div class="hstat-suffix">+</div>
+          <div class="hstat-label">Client Partners</div>
+        </div>
+        <div class="hstat-div"></div>
+        <div class="hstat">
+          <div class="hstat-num" data-count="6">0</div>
+          <div class="hstat-label">Certifications</div>
         </div>
       </div>
 
-      <!-- Name + handle + location -->
-      <div class="profile-meta">
-        <h1 class="profile-name">Disha Goswami</h1>
-        <div class="profile-sub">
-          <span class="handle">@dishagoswami</span>
-          <span class="sep-dot">·</span>
-          <span class="location">
-            <svg width="12" height="12" fill="none" stroke="#888" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
-            India
-          </span>
-        </div>
-        <p class="profile-role">Regional Manager · Client Relations & Robotics Programs</p>
-        <div class="profile-journey-tag">
-          <span class="pj-step">Engineer</span>
-          <span class="pj-arrow">→</span>
-          <span class="pj-step">Trainer</span>
-          <span class="pj-arrow">→</span>
-          <span class="pj-step active">Client Leader</span>
+      <!-- Trusted by -->
+      <div class="trusted-strip">
+        <span class="trusted-label">Worked with</span>
+        <div class="trusted-logos">
+          <span class="tlogo">Capgemini</span>
+          <span class="tlogo-dot">·</span>
+          <span class="tlogo">IDEMIA</span>
+          <span class="tlogo-dot">·</span>
+          <span class="tlogo">DBSE Delhi</span>
+          <span class="tlogo-dot">·</span>
+          <span class="tlogo">SKYFI Labs</span>
+          <span class="tlogo-dot">·</span>
+          <span class="tlogo">KUKA GmbH</span>
+          <span class="tlogo-dot">·</span>
+          <span class="tlogo">Bosch Rexroth</span>
         </div>
       </div>
+    </section>
 
-      <!-- Experience includes -->
-      <div class="exp-block">
-        <span class="exp-label">3+ years · Experience includes:</span>
-        <div class="exp-logos">
-          <div class="exp-chip">The Innovation Story</div>
-          <div class="exp-chip">ASDCA</div>
-          <div class="exp-chip">SKYFI Labs</div>
-        </div>
-      </div>
-
-      <!-- CTA buttons -->
-      <div class="sidebar-ctas">
-        <a href="Disha_resume.pdf" download class="btn-msg" id="sidebar-resume-btn">
-          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          Download Resume
-        </a>
-        <a href="#contact-section" class="btn-bookmark" id="sidebar-contact-btn">
-          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 21l-8-7-8 7V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z"/></svg>
-        </a>
-      </div>
-
-      <!-- Tabs -->
-      <div class="sidebar-tabs">
-        <button class="stab" id="stab-about" onclick="switchTab('about')">
-          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
-          Profile
-        </button>
-        <button class="stab stab-active" id="stab-portfolio" onclick="switchTab('portfolio')">
-          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-          Portfolio
-        </button>
-      </div>
-
-      <!-- ABOUT TAB CONTENT (inside sidebar on mobile, inline on desktop) -->
-      <div class="about-sidebar-content" id="about-sidebar">
-        <div class="sidebar-section">
-          <h3 class="sidebar-section-title">About</h3>
-          <p class="sidebar-about-text">From the precision of robotics to the broader scale of industrial innovation, Disha's work is fueled by a drive to build systems that matter. With a background rooted in engineering and a perspective shaped by strategic thinking, she navigates the intersection of technical depth and operational management.</p>
-        </div>
-        <div class="sidebar-section">
-          <h3 class="sidebar-section-title">Education</h3>
-          <div class="edu-list">
-            <div class="edu-row">
-              <div class="edu-icon-wrap">🎓</div>
-              <div>
-                <strong>BITS Pilani</strong>
-                <span>M.Tech, Embedded Engineering · 2025</span>
-              </div>
-            </div>
-            <div class="edu-row">
-              <div class="edu-icon-wrap">🏛️</div>
-              <div>
-                <strong>AKGEC</strong>
-                <span>B.Tech, Electrical & Electronics · 2022</span>
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-img-col">
+            <div class="about-img-wrap">
+              <img src="WhatsApp Image 2026-05-28 at 5.29.05 AM (1).jpeg" alt="Disha at a professional event" class="about-img" />
+              <div class="about-tag-card">
+                <div class="atc-icon">🎓</div>
+                <div>
+                  <strong>M.Tech — Embedded Eng.</strong>
+                  <span>BITS Pilani · 2025</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="sidebar-section">
-          <h3 class="sidebar-section-title">Skills</h3>
-          <div class="skill-tags-wrap">
-            <span class="stag">KUKA KR16</span>
-            <span class="stag">PLC Programming</span>
-            <span class="stag">Industrial IoT</span>
-            <span class="stag">Arduino</span>
-            <span class="stag">ESP32</span>
-            <span class="stag">Embedded Systems</span>
-            <span class="stag">Industry 4.0</span>
-            <span class="stag">Profibus</span>
-            <span class="stag">Docker</span>
-            <span class="stag">Mission Planner</span>
-            <span class="stag">Eagle</span>
-            <span class="stag">Proteus</span>
-          </div>
-        </div>
-        <div class="sidebar-section">
-          <h3 class="sidebar-section-title">Certifications</h3>
-          <div class="cert-list">
-            <div class="cert-row">🏆 KUKA GmbH — Basic & Advanced</div>
-            <div class="cert-row">⚙️ BOSCH Rexroth — Automation Technologies</div>
-            <div class="cert-row">🔬 NSIC — Advanced Industrial Training</div>
-          </div>
-        </div>
-        <div class="sidebar-section">
-          <h3 class="sidebar-section-title">Languages</h3>
-          <div class="lang-list">
-            <div class="lang-row"><span>🇬🇧 English</span><span class="lang-pill">Professional</span></div>
-            <div class="lang-row"><span>🇮🇳 Hindi</span><span class="lang-pill">Native</span></div>
-          </div>
-        </div>
-        <div class="sidebar-section">
-          <h3 class="sidebar-section-title">Interests</h3>
-          <div class="interest-row">
-            <span>🏃 Running</span><span>🏐 Volleyball</span><span>🏸 Badminton</span>
+          <div class="about-text-col">
+            <div class="section-label">About Me</div>
+            <h2 class="section-title">Engineer. Educator.<br/>Client Leader.</h2>
+            <p class="about-p">
+              My career is a deliberate evolution. I started as a pure engineer — competing in national robotics competitions, writing code for microcontrollers, designing PCBs. I fell in love with how technology actually works at its core.
+            </p>
+            <p class="about-p">
+              Then I discovered something more powerful: <strong>I could make others fall in love with it too.</strong> That realization moved me into education — training students, designing curriculum, and running government-backed programs that put robots in classrooms across Delhi.
+            </p>
+            <p class="about-p">
+              Today, as a <strong>Regional Manager</strong>, I sit at the intersection of technology and relationships. I work directly with corporate clients like Capgemini and IDEMIA, present to government officials, manage CSR partnerships, and lead teams that deliver robotics programs at scale.
+            </p>
+            <div class="about-skills-row">
+              <div class="ask-group">
+                <div class="ask-title">Technical</div>
+                <div class="ask-tags">
+                  <span>KUKA KR16</span><span>PLC</span><span>Arduino</span><span>ESP32</span>
+                  <span>IoT</span><span>Industry 4.0</span><span>Embedded Systems</span>
+                </div>
+              </div>
+              <div class="ask-group">
+                <div class="ask-title">Client-Facing</div>
+                <div class="ask-tags ask-tags-purple">
+                  <span>Program Management</span><span>CSR Partnerships</span>
+                  <span>Stakeholder Relations</span><span>Strategic Planning</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-    </aside>
-
-    <!-- ======== MAIN CONTENT ======== -->
-    <main class="main-content" id="main-content">
-
-      <!-- ABOUT TAB -->
-      <div class="tab-panel" id="about-tab">
-        <div class="tab-header">
-          <h2>About Disha</h2>
-        </div>
-
-        <!-- Summary card -->
-        <div class="content-card summary-card">
-          <div class="summary-hero">
-            <img src="WhatsApp Image 2026-05-28 at 5.29.05 AM (1).jpeg" alt="Disha at a professional event" class="summary-img" />
-            <div class="summary-text">
-              <h3>Professional Summary</h3>
-              <p>From the precision of robotics to the broader scale of industrial innovation, my work is fueled by a drive to build systems that matter. With a background rooted in engineering and a perspective shaped by strategic thinking, I navigate the intersection of technical depth and operational management.</p>
-              <p>I've spent my career turning complex challenges into streamlined, practical results — an evolution that has seen me grow from a technical specialist into a leader of multi-disciplinary programs. Whether coordinating across government sectors or driving corporate initiatives, my focus remains on fostering the synergy between people, technology, and strategy to create lasting impact.</p>
+    <!-- ===================== JOURNEY ===================== -->
+    <section class="section section-gray" id="journey">
+      <div class="container">
+        <div class="section-label tc">Career Journey</div>
+        <h2 class="section-title tc">From the Workshop Floor<br/>to the Boardroom.</h2>
+        <p class="section-desc tc">A deliberate progression — each phase building on the last, culminating in a unique blend of deep technical expertise and high-level client leadership.</p>
+        
+        <div class="journey-grid">
+          <div class="jcard jcard-1" data-phase="01">
+            <div class="jcard-phase">Phase 01 · 2019–2022</div>
+            <div class="jcard-emoji">🔧</div>
+            <h3 class="jcard-title">The Engineer</h3>
+            <p class="jcard-desc">Built, broke, and rebuilt. Competed in ROBOCON 2020 (Top 20 nationally), designed PCBs, programmed KUKA industrial arms and microcontrollers. Gained the rare foundation of knowing how things work at the hardware level.</p>
+            <div class="jcard-orgs">AKGEC Robotics Club · FIREWIRES · AKGEC SKILLS</div>
+            <div class="jcard-tags">
+              <span>Arduino</span><span>KUKA KR16</span><span>Eagle</span><span>Proteus</span>
             </div>
           </div>
-        </div>
 
-        <!-- Experience timeline -->
-        <div class="content-section">
-          <h3 class="section-heading">Work Experience</h3>
-          <div class="exp-timeline">
+          <div class="jcard-arrow">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
 
-            <div class="exp-card">
-              <div class="exp-card-header">
-                <div class="exp-company-dot"></div>
-                <div class="exp-card-main">
-                  <h4>Regional Manager / Robotics Program Manager</h4>
-                  <span class="exp-company">The Innovation Story</span>
-                </div>
-                <div class="exp-card-right">
-                  <span class="exp-date">Aug 2024 – Present</span>
-                  <span class="exp-loc">Noida, U.P.</span>
-                </div>
-              </div>
-              <ul class="exp-bullets">
-                <li>Led end-to-end execution of robotics, automation, and Industry 4.0 programs across Delhi NCR</li>
-                <li>Built strategic CSR & industry collaborations with <strong>Capgemini</strong> and <strong>IDEMIA</strong></li>
-                <li>Technical demonstrations for international delegates, corporate leaders and senior government officials</li>
-                <li>Directed large-scale robotics lab deployments, curriculum execution, and program delivery</li>
-              </ul>
-              <div class="exp-tags">
-                <span>Program Management</span><span>CSR</span><span>Robotics Labs</span><span>Stakeholder Mgmt</span>
-              </div>
+          <div class="jcard jcard-2" data-phase="02">
+            <div class="jcard-phase">Phase 02 · 2022–2024</div>
+            <div class="jcard-emoji">🎓</div>
+            <h3 class="jcard-title">The Educator</h3>
+            <p class="jcard-desc">Discovered I could translate complexity into clarity. Trained hundreds of students in robotics and IoT, designed multi-center curriculum, and delivered government-backed automation programs — turning classrooms into innovation labs.</p>
+            <div class="jcard-orgs">SKYFI Labs · ASDCA (DBSE Initiative)</div>
+            <div class="jcard-tags">
+              <span>Curriculum Design</span><span>PLC Training</span><span>IoT</span><span>Workshop Delivery</span>
             </div>
+          </div>
 
-            <div class="exp-card">
-              <div class="exp-card-header">
-                <div class="exp-company-dot"></div>
-                <div class="exp-card-main">
-                  <h4>Electromechanical Specialized Resource Person</h4>
-                  <span class="exp-company">ASDCA (DBSE Initiative)</span>
-                </div>
-                <div class="exp-card-right">
-                  <span class="exp-date">Apr 2023 – Jul 2024</span>
-                  <span class="exp-loc">Delhi</span>
-                </div>
-              </div>
-              <ul class="exp-bullets">
-                <li>Delivered advanced robotics and industrial automation training under DBSE government initiatives</li>
-                <li>Deployed practical automation labs — embedded systems, industrial sensors & Industry 4.0</li>
-                <li>Developed technical modules covering PLC, IoT integration & automation workflows</li>
-              </ul>
-              <div class="exp-tags">
-                <span>PLC</span><span>Embedded Systems</span><span>IoT</span><span>Technical Training</span>
-              </div>
+          <div class="jcard-arrow">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+
+          <div class="jcard jcard-3 jcard-active" data-phase="03">
+            <div class="jcard-phase jcp-active">Phase 03 · 2024–Present</div>
+            <div class="jcard-emoji">🤝</div>
+            <h3 class="jcard-title">The Client Leader</h3>
+            <p class="jcard-desc">Now I run the full picture — from first client conversation to program delivery. Managing CSR partnerships with Capgemini & IDEMIA, presenting to government delegations, and leading regional robotics programs across Delhi NCR.</p>
+            <div class="jcard-orgs">The Innovation Story · Regional Manager</div>
+            <div class="jcard-tags">
+              <span>Client Relations</span><span>CSR Strategy</span><span>Stakeholder Mgmt</span><span>Program Leadership</span>
             </div>
-
-            <div class="exp-card">
-              <div class="exp-card-header">
-                <div class="exp-company-dot"></div>
-                <div class="exp-card-main">
-                  <h4>Robotics Engineer</h4>
-                  <span class="exp-company">SKYFI LABS</span>
-                </div>
-                <div class="exp-card-right">
-                  <span class="exp-date">Jun 2022 – May 2023</span>
-                  <span class="exp-loc">Remote</span>
-                </div>
-              </div>
-              <ul class="exp-bullets">
-                <li>Conducted robotics & IoT training: Arduino, ESP32, embedded systems & wireless communication</li>
-                <li>Developed functional prototypes integrating sensors, microcontrollers, IoT communication</li>
-              </ul>
-              <div class="exp-tags">
-                <span>Arduino</span><span>ESP32</span><span>IoT</span><span>Prototyping</span>
-              </div>
-            </div>
-
-            <div class="exp-card">
-              <div class="exp-card-header">
-                <div class="exp-company-dot"></div>
-                <div class="exp-card-main">
-                  <h4>Bosch Rexroth Student Ambassador</h4>
-                  <span class="exp-company">AKGEC SKILLS</span>
-                </div>
-                <div class="exp-card-right">
-                  <span class="exp-date">Oct 2021 – Jun 2022</span>
-                  <span class="exp-loc">Ghaziabad</span>
-                </div>
-              </div>
-              <ul class="exp-bullets">
-                <li>Represented AKGEC SKILLS at MEGAEXPO 2022 and technical robotics events</li>
-                <li>Worked on PLC programming and KUKA KR16 industrial robot programming</li>
-              </ul>
-              <div class="exp-tags">
-                <span>KUKA KR16</span><span>PLC</span><span>Bosch Rexroth</span>
-              </div>
-            </div>
-
-            <div class="exp-card">
-              <div class="exp-card-header">
-                <div class="exp-company-dot"></div>
-                <div class="exp-card-main">
-                  <h4>Core Electronics Team Member</h4>
-                  <span class="exp-company">AKGEC Robotics Club</span>
-                </div>
-                <div class="exp-card-right">
-                  <span class="exp-date">Aug 2019 – May 2022</span>
-                  <span class="exp-loc">Ghaziabad</span>
-                </div>
-              </div>
-              <ul class="exp-bullets">
-                <li>ROBOCON 2020 — nationally recognized <strong>Top-20 finish</strong></li>
-                <li>Electronics design, embedded programming, and automation projects for robotics competitions</li>
-              </ul>
-              <div class="exp-tags">
-                <span>ROBOCON 2020</span><span>ESP32</span><span>Eagle</span><span>Proteus</span>
-              </div>
-            </div>
-
-            <div class="exp-card">
-              <div class="exp-card-header">
-                <div class="exp-company-dot"></div>
-                <div class="exp-card-main">
-                  <h4>Electronics Engineer Intern</h4>
-                  <span class="exp-company">FIREWIRES</span>
-                </div>
-                <div class="exp-card-right">
-                  <span class="exp-date">Aug 2021 – Nov 2021</span>
-                  <span class="exp-loc">Hyderabad</span>
-                </div>
-              </div>
-              <ul class="exp-bullets">
-                <li>OBD diagnostic modules and industrial sensor integration for vehicle diagnostics</li>
-              </ul>
-              <div class="exp-tags">
-                <span>OBD</span><span>Sensors</span><span>Embedded</span>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- PORTFOLIO TAB -->
-      <div class="tab-panel active" id="portfolio-tab">
+    <!-- ===================== CLIENT IMPACT ===================== -->
+    <section class="section" id="impact">
+      <div class="container">
+        <div class="section-label">Client Impact</div>
+        <h2 class="section-title">Who I've Worked With<br/>& What I Delivered.</h2>
 
-        <!-- Hero intro strip -->
-        <div class="portfolio-hero-strip">
-          <div class="phs-text">
-            <div class="phs-badge">
-              <span class="phs-dot"></span>
-              Open to Work
-            </div>
-            <h2 class="phs-name">Disha Goswami</h2>
-            <p class="phs-role">Regional Manager · Client Partnerships & Robotics Programs</p>
-            <p class="phs-tagline">I started as a hands-on robotics engineer — wiring circuits, programming robots, building from scratch. Today I lead client relationships, drive strategic programs, and bring technology to life for organizations, governments, and communities.</p>
-            <div class="phs-journey-row">
-              <div class="phs-jstep done">
-                <span class="pjs-icon">🔧</span>
-                <span>Robotics Engineer</span>
-              </div>
-              <div class="phs-jarrow">→</div>
-              <div class="phs-jstep done">
-                <span class="pjs-icon">🎓</span>
-                <span>Technical Trainer</span>
-              </div>
-              <div class="phs-jarrow">→</div>
-              <div class="phs-jstep current">
-                <span class="pjs-icon">🤝</span>
-                <span>Client Leader</span>
-              </div>
-            </div>
-            <div class="phs-stats">
-              <div class="phs-stat">
-                <span class="phs-num" data-count="3">0</span><span class="phs-num-plus">+</span>
-                <span class="phs-slabel">Years Exp</span>
-              </div>
-              <div class="phs-divider"></div>
-              <div class="phs-stat">
-                <span class="phs-num" data-count="500">0</span><span class="phs-num-plus">+</span>
-                <span class="phs-slabel">Students Impacted</span>
-              </div>
-              <div class="phs-divider"></div>
-              <div class="phs-stat">
-                <span class="phs-num" data-count="10">0</span><span class="phs-num-plus">+</span>
-                <span class="phs-slabel">Client Partners</span>
-              </div>
-              <div class="phs-divider"></div>
-              <div class="phs-stat">
-                <span class="phs-num" data-count="6">0</span>
-                <span class="phs-slabel">Certifications</span>
-              </div>
+        <div class="bento-grid">
+
+          <!-- Big card — Corporate -->
+          <div class="bento-card bc-large bc-purple" id="bc-corp">
+            <div class="bc-icon">🏢</div>
+            <div class="bc-tag">Corporate Partnerships</div>
+            <h3 class="bc-title">Capgemini & IDEMIA</h3>
+            <p class="bc-desc">Built and managed end-to-end CSR partnerships with two global corporations — aligned their social impact budgets to robotics education programs, served as primary client liaison, and drove program design to delivery.</p>
+            <div class="bc-result">
+              <span class="bcr-num">2</span>
+              <span class="bcr-label">Fortune 500 Clients</span>
             </div>
           </div>
-          <div class="phs-image">
-            <img src="WhatsApp Image 2026-05-29 at 10.48.43 AM.jpeg" alt="Disha Goswami at a client event" class="phs-img" />
+
+          <!-- Medium card — Government -->
+          <div class="bento-card bc-medium bc-blue" id="bc-gov">
+            <div class="bc-icon">🏛️</div>
+            <div class="bc-tag">Government & Policy</div>
+            <h3 class="bc-title">DBSE & Government Officials</h3>
+            <p class="bc-desc">Executed programs under Delhi Board of Secondary Education. Delivered live technical demonstrations to senior government officials and international delegates.</p>
+            <div class="bc-result">
+              <span class="bcr-num">20+</span>
+              <span class="bcr-label">Institutional Programs</span>
+            </div>
+          </div>
+
+          <!-- Medium card — Schools -->
+          <div class="bento-card bc-medium bc-green" id="bc-edu">
+            <div class="bc-icon">🏫</div>
+            <div class="bc-tag">Education Impact</div>
+            <h3 class="bc-title">Schools & Students</h3>
+            <p class="bc-desc">Set up robotics labs, delivered bootcamps, and directly impacted hundreds of students across Delhi NCR schools through immersive, hands-on learning programs.</p>
+            <div class="bc-result">
+              <span class="bcr-num">500+</span>
+              <span class="bcr-label">Students Impacted</span>
+            </div>
+          </div>
+
+          <!-- Small card — Events -->
+          <div class="bento-card bc-small bc-amber" id="bc-events">
+            <div class="bc-icon">🎤</div>
+            <div class="bc-tag">Events & Conferences</div>
+            <h3 class="bc-title">Keynotes & Summits</h3>
+            <p class="bc-desc">Represented organizations at Amazon Smbhav Summit, MEGAEXPO 2022, Democratizing Digital conference, and Hyatt Regency corporate events.</p>
+          </div>
+
+          <!-- Small card — Certs -->
+          <div class="bento-card bc-small bc-rose" id="bc-certs">
+            <div class="bc-icon">🏆</div>
+            <div class="bc-tag">Credentials</div>
+            <h3 class="bc-title">Certified by Industry Leaders</h3>
+            <p class="bc-desc">KUKA GmbH (Basic & Advanced) · Bosch Rexroth Automation · NSIC Advanced Industrial Training</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WORK / PROJECTS ===================== -->
+    <section class="section section-gray" id="work">
+      <div class="container">
+        <div class="section-label">Key Projects</div>
+        <h2 class="section-title">The Work That<br/>Defines Me.</h2>
+
+        <div class="projects-list">
+
+          <div class="proj-row" id="proj-1">
+            <div class="proj-num">01</div>
+            <div class="proj-content">
+              <div class="proj-header">
+                <h3 class="proj-name">Advanced Robotic Arm Optimization</h3>
+                <div class="proj-tags"><span>KUKA KR16</span><span>3D Mapping</span><span>Palletizing</span></div>
+              </div>
+              <p class="proj-desc">Designed optimized 3D array mapping logic for KUKA KR16 robotic arm palletizing operations, replacing conventional 2D layer-by-layer mapping. Significantly improved execution logic, position mapping, and placement sequences for industrial deployment.</p>
+            </div>
+            <div class="proj-arrow">→</div>
+          </div>
+
+          <div class="proj-row" id="proj-2">
+            <div class="proj-num">02</div>
+            <div class="proj-content">
+              <div class="proj-header">
+                <h3 class="proj-name">Industrial Tyre Sorting Automation</h3>
+                <div class="proj-tags"><span>PLC</span><span>Barcode ID</span><span>Industrial Automation</span></div>
+              </div>
+              <p class="proj-desc">Developed PLC-based automation logic for tyre sorting with barcode identification and automated routing workflow. Built repeatable industrial sequencing logic for reliable, scalable deployment.</p>
+            </div>
+            <div class="proj-arrow">→</div>
+          </div>
+
+          <div class="proj-row" id="proj-3">
+            <div class="proj-num">03</div>
+            <div class="proj-content">
+              <div class="proj-header">
+                <h3 class="proj-name">Industrial IoT & Docker Interface</h3>
+                <div class="proj-tags"><span>Profibus</span><span>Docker</span><span>Hilscher</span></div>
+              </div>
+              <p class="proj-desc">Built a communication bridge between PLC and embedded controllers using Hilscher device, Docker-based environment, and Profibus protocol. Enabled real-time industrial data exchange for smart manufacturing integration.</p>
+            </div>
+            <div class="proj-arrow">→</div>
+          </div>
+
+          <div class="proj-row" id="proj-4">
+            <div class="proj-num">04</div>
+            <div class="proj-content">
+              <div class="proj-header">
+                <h3 class="proj-name">Collision-Avoidance Drone Prototype</h3>
+                <div class="proj-tags"><span>Pixhawk</span><span>Arduino</span><span>Mission Planner</span></div>
+              </div>
+              <p class="proj-desc">Built an autonomous drone using Pixhawk, ultrasonic sensors, and servo mechanisms for real-time obstacle detection. Integrated Mission Planner for navigation and autonomous delivery testing in controlled environments.</p>
+            </div>
+            <div class="proj-arrow">→</div>
+          </div>
+
+          <div class="proj-row" id="proj-5">
+            <div class="proj-num">05</div>
+            <div class="proj-content">
+              <div class="proj-header">
+                <h3 class="proj-name">Robotics Bootcamp for Schools</h3>
+                <div class="proj-tags"><span>Curriculum Design</span><span>DBSE</span><span>100+ Students</span></div>
+              </div>
+              <p class="proj-desc">Designed and delivered a complete robotics bootcamp — robot assembly, embedded programming, sensor integration, and live demos. Transformed classrooms into innovation labs under government initiative, reaching 100+ school students directly.</p>
+            </div>
+            <div class="proj-arrow">→</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-label">In The Field</div>
+        <h2 class="section-title">Moments That<br/>Matter.</h2>
+        <div class="gallery-grid" id="galleryGrid">
+          <div class="gg-item gg-tall" id="gg-1">
+            <img src="WhatsApp Image 2026-05-27 at 10.27.25 PM.jpeg" alt="Professional Event" loading="lazy" />
+            <div class="gg-overlay"><span>International Tech Event</span></div>
+          </div>
+          <div class="gg-item" id="gg-2">
+            <img src="WhatsApp Image 2026-05-28 at 5.29.06 AM.jpeg" alt="Capgemini Education Summit" loading="lazy" />
+            <div class="gg-overlay"><span>Capgemini Education Summit</span></div>
+          </div>
+          <div class="gg-item" id="gg-3">
+            <img src="WhatsApp Image 2026-05-28 at 5.29.05 AM (1).jpeg" alt="Democratizing Digital" loading="lazy" />
+            <div class="gg-overlay"><span>Democratizing Digital Conference</span></div>
+          </div>
+          <div class="gg-item gg-wide" id="gg-4">
+            <img src="WhatsApp Image 2026-05-27 at 10.27.24 PM.jpeg" alt="Amazon Smbhav Summit" loading="lazy" />
+            <div class="gg-overlay"><span>Amazon Smbhav Summit</span></div>
+          </div>
+          <div class="gg-item" id="gg-5">
+            <img src="WhatsApp Image 2026-05-29 at 10.48.43 AM.jpeg" alt="Hyatt Regency Event" loading="lazy" />
+            <div class="gg-overlay"><span>Hyatt Regency Event</span></div>
+          </div>
+          <div class="gg-item" id="gg-6">
+            <img src="WhatsApp Image 2026-05-29 at 10.55.11 AM.jpeg" alt="Harry Potter Themed Event" loading="lazy" />
+            <div class="gg-overlay"><span>Harry Potter Themed Event</span></div>
+          </div>
+          <div class="gg-item" id="gg-7">
+            <img src="WhatsApp Image 2026-05-29 at 10.52.29 AM.jpeg" alt="Team Moments" loading="lazy" />
+            <div class="gg-overlay"><span>Team Moments</span></div>
+          </div>
+          <div class="gg-item" id="gg-8">
+            <img src="WhatsApp Image 2026-05-29 at 10.55.12 AM.jpeg" alt="Team Selfie" loading="lazy" />
+            <div class="gg-overlay"><span>Team Selfie</span></div>
+          </div>
+          <div class="gg-item" id="gg-9">
+            <img src="WhatsApp Image 2026-05-27 at 10.27.23 PM.jpeg" alt="Amazon Summit" loading="lazy" />
+            <div class="gg-overlay"><span>Amazon Smbhav Summit</span></div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <!-- Career Journey Section -->
-        <div class="content-section" id="journey-section">
-          <h3 class="section-heading">My Journey</h3>
-          <div class="journey-intro">
-            From soldering circuits to presenting in boardrooms — here's how I evolved from a technical specialist into a client-facing leader.
+    <!-- ===================== PASSION ===================== -->
+    <section class="section section-dark" id="passion">
+      <div class="container">
+        <div class="passion-layout">
+          <div class="passion-text">
+            <div class="section-label sl-light">Passion & Mission</div>
+            <h2 class="section-title st-light">Teaching Children<br/>to Build the Future.</h2>
+            <p class="passion-p">
+              My deepest belief: <em>every child deserves to be a creator, not just a consumer of technology.</em> I want to put a circuit board in every child's hands and watch the moment they realize they can make the world around them respond to their ideas.
+            </p>
+            <blockquote class="passion-quote">
+              "If a child can dream it, they should be able to build it. My mission is to hand them the tools — and the courage to try."
+            </blockquote>
+            <a href="#contact" class="btn-light">Collaborate on Education</a>
           </div>
-          <div class="journey-timeline">
-
-            <div class="journey-card jc-eng">
-              <div class="jc-phase-badge eng">Phase 1 · 2019–2022</div>
-              <div class="jc-icon">🔧</div>
-              <h4>The Engineer</h4>
-              <p>I began by getting my hands dirty — literally. Competing in ROBOCON 2020, designing PCBs in Eagle, programming microcontrollers, and building automation prototypes from scratch. I learned what it means to make things work under pressure.</p>
-              <div class="jc-skills">
-                <span>Arduino</span><span>ESP32</span><span>PCB Design</span><span>Embedded Systems</span><span>KUKA KR16</span>
-              </div>
-              <div class="jc-org">AKGEC Robotics Club · FIREWIRES · AKGEC SKILLS</div>
+          <div class="passion-grid-right">
+            <div class="pgr-card">
+              <div class="pgrc-icon">🤖</div>
+              <h4>Robotics for Kids</h4>
+              <p>Hands-on robot building, programming, and sensor integration — made simple and exciting.</p>
             </div>
-
-            <div class="journey-arrow-col">
-              <div class="journey-connector">
-                <div class="jc-line"></div>
-                <div class="jc-chevron">›</div>
-              </div>
+            <div class="pgr-card">
+              <div class="pgrc-icon">💡</div>
+              <h4>Design Thinking</h4>
+              <p>Teaching young minds to identify problems, prototype solutions, and iterate fearlessly.</p>
             </div>
-
-            <div class="journey-card jc-train">
-              <div class="jc-phase-badge train">Phase 2 · 2022–2024</div>
-              <div class="jc-icon">🎓</div>
-              <h4>The Trainer & Educator</h4>
-              <p>I realized my real power was in explaining complex technology simply. I moved into training roles — conducting robotics & IoT workshops, building curriculum, and delivering government-backed programs across schools and technical institutes.</p>
-              <div class="jc-skills">
-                <span>Curriculum Design</span><span>Workshop Delivery</span><span>PLC Training</span><span>IoT Education</span>
-              </div>
-              <div class="jc-org">SKYFI LABS · ASDCA (DBSE Initiative)</div>
+            <div class="pgr-card">
+              <div class="pgrc-icon">🌐</div>
+              <h4>Digital Literacy</h4>
+              <p>Helping children understand the IoT, AI, and smart devices that shape their world.</p>
             </div>
-
-            <div class="journey-arrow-col">
-              <div class="journey-connector">
-                <div class="jc-line"></div>
-                <div class="jc-chevron">›</div>
-              </div>
-            </div>
-
-            <div class="journey-card jc-client">
-              <div class="jc-phase-badge client">Phase 3 · 2024–Present</div>
-              <div class="jc-icon">🤝</div>
-              <h4>The Client Leader</h4>
-              <p>Today I lead end-to-end client relationships — from the first conversation to program delivery. I work with corporates like Capgemini & IDEMIA, present to government officials, manage strategic CSR partnerships, and run regional robotics programs at scale.</p>
-              <div class="jc-skills">
-                <span>Client Relations</span><span>Program Management</span><span>CSR Partnerships</span><span>Stakeholder Mgmt</span><span>Strategic Planning</span>
-              </div>
-              <div class="jc-org">The Innovation Story · Regional Manager</div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Client Impact Section -->
-        <div class="content-section" id="impact-section">
-          <h3 class="section-heading">Client Impact</h3>
-          <div class="impact-grid">
-
-            <div class="impact-card ic-purple">
-              <div class="ic-icon">🏢</div>
-              <div class="ic-content">
-                <h4>Corporate Partnerships</h4>
-                <p>Built and managed strategic CSR partnerships with <strong>Capgemini</strong> and <strong>IDEMIA</strong>, aligning technology education initiatives with their social impact goals. Served as the primary client liaison for program design and delivery.</p>
-                <div class="ic-tags"><span>Capgemini</span><span>IDEMIA</span><span>CSR Strategy</span></div>
-              </div>
-            </div>
-
-            <div class="impact-card ic-blue">
-              <div class="ic-icon">🏛️</div>
-              <div class="ic-content">
-                <h4>Government & Institutional Clients</h4>
-                <p>Delivered live technical demonstrations to <strong>senior government officials</strong> and international delegates. Executed programs under DBSE (Delhi Board of Secondary Education), translating policy into ground-level impact.</p>
-                <div class="ic-tags"><span>DBSE</span><span>Government Delegations</span><span>Policy Execution</span></div>
-              </div>
-            </div>
-
-            <div class="impact-card ic-green">
-              <div class="ic-icon">🏫</div>
-              <div class="ic-content">
-                <h4>Schools & Educational Institutions</h4>
-                <p>Directly impacted <strong>500+ students</strong> across multiple schools by setting up robotics labs, delivering hands-on workshops, and building relationships with school leadership as the primary program contact.</p>
-                <div class="ic-tags"><span>500+ Students</span><span>Lab Setup</span><span>School Partnerships</span></div>
-              </div>
-            </div>
-
-            <div class="impact-card ic-amber">
-              <div class="ic-icon">📊</div>
-              <div class="ic-content">
-                <h4>Program Leadership at Scale</h4>
-                <p>Managed multi-center program rollouts with standardized SOPs, quality metrics, and client reporting frameworks. Coordinated across teams, vendors, and client stakeholders to deliver on time and on brief.</p>
-                <div class="ic-tags"><span>Multi-center Delivery</span><span>SOPs</span><span>Client Reporting</span></div>
-              </div>
-            </div>
-
-          </div>
-
-          <!-- Client-facing skills bar -->
-          <div class="client-skills-row">
-            <h4 class="csr-title">Client-Facing Capabilities</h4>
-            <div class="csr-grid">
-              <div class="csr-item">
-                <div class="csr-label"><span>🗣️ Client Communication & Presentations</span><span class="csr-pct">95%</span></div>
-                <div class="csr-bar"><div class="csr-fill" style="width:95%; background: var(--accent);"></div></div>
-              </div>
-              <div class="csr-item">
-                <div class="csr-label"><span>📋 Program & Project Management</span><span class="csr-pct">90%</span></div>
-                <div class="csr-bar"><div class="csr-fill" style="width:90%; background: var(--accent-2);"></div></div>
-              </div>
-              <div class="csr-item">
-                <div class="csr-label"><span>🤝 Stakeholder & Relationship Management</span><span class="csr-pct">92%</span></div>
-                <div class="csr-bar"><div class="csr-fill" style="width:92%; background: var(--green);"></div></div>
-              </div>
-              <div class="csr-item">
-                <div class="csr-label"><span>🔧 Technical Depth (Robotics & Automation)</span><span class="csr-pct">90%</span></div>
-                <div class="csr-bar"><div class="csr-fill" style="width:90%; background: var(--amber);"></div></div>
-              </div>
-              <div class="csr-item">
-                <div class="csr-label"><span>🎓 Training & Knowledge Transfer</span><span class="csr-pct">95%</span></div>
-                <div class="csr-bar"><div class="csr-fill" style="width:95%; background: var(--rose);"></div></div>
-              </div>
-              <div class="csr-item">
-                <div class="csr-label"><span>🏢 Corporate & CSR Partnerships</span><span class="csr-pct">88%</span></div>
-                <div class="csr-bar"><div class="csr-fill" style="width:88%; background: var(--accent);"></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Key Projects -->
-        <div class="content-section" id="projects-section">
-          <h3 class="section-heading">Key Projects</h3>
-          <div class="projects-grid">
-
-            <div class="proj-card proj-featured" id="proj-1">
-              <div class="proj-card-inner">
-                <div class="proj-icon">🦾</div>
-                <div class="proj-tag-pill">Featured</div>
-                <h4>Advanced Robotic Arm Optimization</h4>
-                <p class="proj-subtitle">3D Array Mapping — KUKA KR16</p>
-                <p class="proj-desc">Designed optimized 3D array mapping logic for KUKA KR16 robotic arm palletizing operations, replacing conventional layer-by-layer 2D mapping with a more scalable approach. Improved execution logic by structuring robot movement, position mapping and placement sequences.</p>
-                <div class="proj-tech-row">
-                  <span>KUKA KR16</span><span>3D Mapping</span><span>Palletizing</span><span>Optimization</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="proj-card" id="proj-2">
-              <div class="proj-card-inner">
-                <div class="proj-icon">🏭</div>
-                <h4>Industrial Tyre Sorting Automation</h4>
-                <p class="proj-subtitle">PLC-Based System</p>
-                <p class="proj-desc">Developed PLC-based automation logic for tyre sorting with barcode-based identification and routing workflow. Built sequencing logic for industrial implementation and repeatable sorting operations.</p>
-                <div class="proj-tech-row">
-                  <span>PLC</span><span>Barcode ID</span><span>Automation</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="proj-card" id="proj-3">
-              <div class="proj-card-inner">
-                <div class="proj-icon">🌐</div>
-                <h4>Industrial IoT & Docker Interface</h4>
-                <p class="proj-subtitle">PLC ↔ Embedded Controller Bridge</p>
-                <p class="proj-desc">Communication interface between PLC and embedded controller using a Hilscher device, Docker-based environment and Profibus protocol. Firmware-level experimentation and embedded communication testing.</p>
-                <div class="proj-tech-row">
-                  <span>Profibus</span><span>Docker</span><span>Hilscher</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="proj-card" id="proj-4">
-              <div class="proj-card-inner">
-                <div class="proj-icon">⚙️</div>
-                <h4>Predictive Maintenance System</h4>
-                <p class="proj-subtitle">Motor Lifecycle Analysis</p>
-                <p class="proj-desc">Predictive maintenance concept to estimate industrial motor lifecycle, operational efficiency and replacement timing. Designed to reduce unnecessary replacement costs and minimize downtime risk.</p>
-                <div class="proj-tech-row">
-                  <span>Predictive Analytics</span><span>Motor Analysis</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="proj-card" id="proj-5">
-              <div class="proj-card-inner">
-                <div class="proj-icon">🛸</div>
-                <h4>Collision Avoidance Drone</h4>
-                <p class="proj-subtitle">Autonomous Drone Prototype</p>
-                <p class="proj-desc">Autonomous drone using Pixhawk, Arduino IDE, ultrasonic sensors and servo mechanisms for obstacle detection and automated delivery testing. Integrated Mission Planner for navigation.</p>
-                <div class="proj-tech-row">
-                  <span>Pixhawk</span><span>Arduino</span><span>Mission Planner</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="proj-card" id="proj-6">
-              <div class="proj-card-inner">
-                <div class="proj-icon">📊</div>
-                <h4>Instagram User Analytics</h4>
-                <p class="proj-subtitle">SQL-Based Data Analysis</p>
-                <p class="proj-desc">SQL-based analysis of user datasets to identify engagement patterns and generate product-focused insights for improved platform understanding.</p>
-                <div class="proj-tech-row">
-                  <span>SQL</span><span>Data Analysis</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Gallery -->
-        <div class="content-section" id="gallery-section">
-          <h3 class="section-heading">Moments & Events</h3>
-          <div class="gallery-masonry">
-
-            <div class="gal-item" id="gal-1">
-              <img src="WhatsApp Image 2026-05-28 at 5.29.06 AM.jpeg" alt="Capgemini Education Summit" loading="lazy" />
-              <div class="gal-caption">Capgemini Education Summit</div>
-            </div>
-            <div class="gal-item gal-tall" id="gal-2">
-              <img src="WhatsApp Image 2026-05-27 at 10.27.24 PM.jpeg" alt="Amazon smbhav Summit" loading="lazy" />
-              <div class="gal-caption">Amazon smbhav Summit</div>
-            </div>
-            <div class="gal-item" id="gal-3">
-              <img src="WhatsApp Image 2026-05-27 at 10.27.23 PM.jpeg" alt="Amazon smbhav Summit" loading="lazy" />
-              <div class="gal-caption">Amazon smbhav Summit</div>
-            </div>
-            <div class="gal-item gal-tall" id="gal-4">
-              <img src="WhatsApp Image 2026-05-28 at 5.29.05 AM (1).jpeg" alt="Democratizing Digital Conference" loading="lazy" />
-              <div class="gal-caption">Democratizing Digital Conference</div>
-            </div>
-            <div class="gal-item" id="gal-5">
-              <img src="WhatsApp Image 2026-05-29 at 10.55.11 AM.jpeg" alt="Harry Potter Themed Event" loading="lazy" />
-              <div class="gal-caption">Harry Potter Themed Event</div>
-            </div>
-            <div class="gal-item" id="gal-6">
-              <img src="WhatsApp Image 2026-05-29 at 10.48.43 AM.jpeg" alt="Hyatt Regency Event" loading="lazy" />
-              <div class="gal-caption">Hyatt Regency Event</div>
-            </div>
-            <div class="gal-item" id="gal-7">
-              <img src="WhatsApp Image 2026-05-29 at 10.52.29 AM.jpeg" alt="Team Moments" loading="lazy" />
-              <div class="gal-caption">Team Moments</div>
-            </div>
-            <div class="gal-item" id="gal-8">
-              <img src="WhatsApp Image 2026-05-29 at 10.55.12 AM.jpeg" alt="Fun Team Selfie" loading="lazy" />
-              <div class="gal-caption">Team Selfie</div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- ======== PASSION SECTION ======== -->
-        <div class="content-section" id="passion-section">
-          <h3 class="section-heading">My Passion — Tech for Every Child</h3>
-
-          <div class="passion-hero">
-            <div class="passion-hero-text">
-              <div class="passion-hero-label">
-                ❤️ Core Belief
-              </div>
-              <h3>Every Child Deserves to Be a Creator, Not Just a Consumer of Technology</h3>
-              <p>I believe that the future belongs to those who understand how things work — not just how to use them. My deepest passion is bridging the gap between complex technology and young minds. I want every child, regardless of their background, to experience the thrill of making a robot move, writing a line of code, or solving a real-world problem with their hands.</p>
-              <div class="passion-quote">
-                "If a child can dream it, they should be able to build it. My mission is to hand them the tools and the courage to try."
-              </div>
-              <p>Through my work in robotics education, I've witnessed firsthand how a single 'aha!' moment can ignite a lifelong love for science and technology. That spark — that wide-eyed wonder — is what drives everything I do.</p>
-            </div>
-            <div class="passion-hero-img">
-              <img src="WhatsApp Image 2026-05-28 at 5.29.06 AM.jpeg" alt="Disha teaching and inspiring" />
-            </div>
-          </div>
-
-          <div class="passion-pillars">
-            <div class="pillar-card">
-              <div class="pillar-icon">🤖</div>
-              <h5>Hands-On Robotics</h5>
-              <p>Teaching children by letting them build, break, and rebuild — because real learning happens through doing.</p>
-            </div>
-            <div class="pillar-card">
-              <div class="pillar-icon">💡</div>
-              <h5>Design Thinking</h5>
-              <p>Helping young minds approach problems creatively, iterate fearlessly, and think like inventors from day one.</p>
-            </div>
-            <div class="pillar-card">
-              <div class="pillar-icon">🌐</div>
-              <h5>Digital Literacy</h5>
-              <p>Ensuring every child understands the digital world they live in — from IoT to AI — in simple, exciting ways.</p>
-            </div>
-            <div class="pillar-card">
-              <div class="pillar-icon">🌱</div>
-              <h5>Inclusive Education</h5>
-              <p>Breaking down barriers of access so that tech education reaches children from all communities and backgrounds.</p>
-            </div>
-          </div>
-
-          <div class="passion-goals">
-            <h4>🎯 What I Want to Teach Children</h4>
-            <div class="passion-goals-list">
-              <div class="goal-item">
-                <div class="goal-check">✓</div>
-                <span>How to program a robot from scratch using beginner-friendly platforms</span>
-              </div>
-              <div class="goal-item">
-                <div class="goal-check">✓</div>
-                <span>How everyday gadgets work — from sensors to smart devices</span>
-              </div>
-              <div class="goal-item">
-                <div class="goal-check">✓</div>
-                <span>Problem-solving through engineering challenges and mini-projects</span>
-              </div>
-              <div class="goal-item">
-                <div class="goal-check">✓</div>
-                <span>The basics of electronics — circuits, components, and prototyping</span>
-              </div>
-              <div class="goal-item">
-                <div class="goal-check">✓</div>
-                <span>Coding fundamentals through games, stories, and animations</span>
-              </div>
-              <div class="goal-item">
-                <div class="goal-check">✓</div>
-                <span>How to collaborate, communicate, and present their creations confidently</span>
-              </div>
-              <div class="goal-item">
-                <div class="goal-check">✓</div>
-                <span>Real-world applications of Industry 4.0 and automation in simple terms</span>
-              </div>
-              <div class="goal-item">
-                <div class="goal-check">✓</div>
-                <span>Cultivating curiosity — asking 'why' and 'how' at every step</span>
-              </div>
+            <div class="pgr-card">
+              <div class="pgrc-icon">🌱</div>
+              <h4>Inclusive Access</h4>
+              <p>Ensuring tech education reaches children from all communities and economic backgrounds.</p>
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <!-- ======== LEARN WITH DISHA SECTION ======== -->
-        <div class="content-section" id="learn-section">
-          <div class="lwd-header">
-            <h3 class="section-heading" style="margin-bottom:0; border:none; padding:0;">Learn with Disha</h3>
-            <div class="lwd-badge">
-              <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-              Open to Teach
-            </div>
+    <!-- ===================== LEARN WITH DISHA ===================== -->
+    <section class="section" id="learn">
+      <div class="container">
+        <div class="section-label">Learn with Disha</div>
+        <h2 class="section-title">What I Teach.</h2>
+        <p class="section-desc">My personal initiative to make robotics, electronics, and technology accessible to curious minds of all ages.</p>
+        <div class="courses-grid">
+          <div class="course-card" id="cc-1">
+            <div class="cc-level beg">Beginner</div>
+            <div class="cc-icon">🤖</div>
+            <h4>Intro to Robotics</h4>
+            <p>Build your first robot. Understand how machines sense, think, and move — from theory to hands-on assembly.</p>
           </div>
-          <div class="lwd-intro">
-            🎓 <strong>Learn with Disha</strong> is my personal initiative to make robotics, electronics, and technology accessible to students of all ages. Whether you're a curious 10-year-old, a school student, or someone beginning their tech journey — there's a place for you here. I design learning experiences that are fun, hands-on, and deeply meaningful.
+          <div class="course-card" id="cc-2">
+            <div class="cc-level beg">Beginner</div>
+            <div class="cc-icon">⚡</div>
+            <h4>Electronics Basics</h4>
+            <p>From resistors to microcontrollers — demystify electronics through safe, exciting hands-on experiments.</p>
           </div>
-
-          <div class="lwd-grid">
-            <div class="lwd-card">
-              <div class="lwd-icon">🤖</div>
-              <h4>Intro to Robotics</h4>
-              <p>Learn how robots think, move, and sense the world. Build your first robot and understand the magic behind automation.</p>
-              <span class="lwd-level beg">Beginner</span>
-            </div>
-            <div class="lwd-card">
-              <div class="lwd-icon">⚡</div>
-              <h4>Electronics Basics</h4>
-              <p>From resistors to microcontrollers — demystify electronics with simple, safe, and exciting hands-on experiments.</p>
-              <span class="lwd-level beg">Beginner</span>
-            </div>
-            <div class="lwd-card">
-              <div class="lwd-icon">🌐</div>
-              <h4>IoT for Everyone</h4>
-              <p>Connect your world. Learn to build smart devices using Arduino and ESP32 that respond to the real world around you.</p>
-              <span class="lwd-level int">Intermediate</span>
-            </div>
-            <div class="lwd-card">
-              <div class="lwd-icon">🏭</div>
-              <h4>Industry 4.0 Simplified</h4>
-              <p>Understand how factories of the future work — PLC, automation, sensors, and smart manufacturing explained simply.</p>
-              <span class="lwd-level int">Intermediate</span>
-            </div>
-            <div class="lwd-card">
-              <div class="lwd-icon">🚀</div>
-              <h4>Drone Technology</h4>
-              <p>Explore the world of autonomous flight. Learn how drones navigate, avoid obstacles, and complete missions.</p>
-              <span class="lwd-level adv">Advanced</span>
-            </div>
-            <div class="lwd-card">
-              <div class="lwd-icon">🧠</div>
-              <h4>Problem-Solving for Kids</h4>
-              <p>Develop engineering thinking through fun challenges, puzzles, and mini-projects designed to spark creativity.</p>
-              <span class="lwd-level beg">All Ages</span>
-            </div>
+          <div class="course-card" id="cc-3">
+            <div class="cc-level int">Intermediate</div>
+            <div class="cc-icon">🌐</div>
+            <h4>IoT for Everyone</h4>
+            <p>Connect the physical world to the digital. Build smart devices using Arduino & ESP32.</p>
           </div>
-
-          <div class="lwd-cta-row">
-            <div class="lwd-cta-icon">📬</div>
-            <div class="lwd-cta-text">
-              <h4>Want to learn or collaborate?</h4>
-              <p>I'm always looking for passionate learners, schools, and organizations who share a love for technology education. Let's build something amazing together.</p>
-            </div>
-            <a href="#contact-section" class="contact-resume-btn" style="flex-shrink:0">Get in Touch</a>
+          <div class="course-card" id="cc-4">
+            <div class="cc-level int">Intermediate</div>
+            <div class="cc-icon">🏭</div>
+            <h4>Industry 4.0 Simplified</h4>
+            <p>Understand smart factories, PLC automation, and industrial sensors — explained simply.</p>
+          </div>
+          <div class="course-card" id="cc-5">
+            <div class="cc-level adv">Advanced</div>
+            <div class="cc-icon">🚀</div>
+            <h4>Drone Technology</h4>
+            <p>Autonomous flight, obstacle avoidance, mission planning — explore the world of drones in depth.</p>
+          </div>
+          <div class="course-card" id="cc-6">
+            <div class="cc-level all">All Ages</div>
+            <div class="cc-icon">🧠</div>
+            <h4>Problem-Solving</h4>
+            <p>Engineering challenges, puzzles, and mini-projects designed to spark creative, systematic thinking.</p>
           </div>
         </div>
+      </div>
+    </section>
 
-        <!-- ======== MY CREATIONS SECTION ======== -->
-        <div class="content-section" id="creations-section">
-          <h3 class="section-heading">My Creations</h3>
-          <div class="creations-grid">
-
-            <div class="creation-card" id="cr-1">
-              <div class="creation-img-wrap">
-                <img src="WhatsApp Image 2026-05-28 at 5.29.06 AM.jpeg" alt="Robotics Workshop" />
-              </div>
-              <div class="creation-body">
-                <div class="creation-type ct-workshop">Workshop Design</div>
-                <h4>Robotics Bootcamp for School Students</h4>
-                <p>Designed and delivered an end-to-end robotics bootcamp for school students under government-backed DBSE initiatives. Covered robot assembly, basic programming, sensor integration, and live demonstrations — turning classrooms into innovation labs.</p>
-                <div class="creation-meta">
-                  <span>Hands-on Learning</span><span>DBSE Initiative</span><span>100+ Students</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="creation-card" id="cr-2">
-              <div class="creation-img-wrap">
-                <img src="WhatsApp Image 2026-05-28 at 5.29.05 AM (1).jpeg" alt="Digital Literacy Conference" />
-              </div>
-              <div class="creation-body">
-                <div class="creation-type ct-program">Program Creation</div>
-                <h4>Democratizing Digital — Tech Equity Program</h4>
-                <p>Participated in and contributed to the "Democratizing Digital" conference focusing on bridging the technology equity gap. Helped develop frameworks for bringing tech education to underserved communities across India.</p>
-                <div class="creation-meta">
-                  <span>Policy Impact</span><span>Digital Equity</span><span>Community Outreach</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="creation-card" id="cr-3">
-              <div class="creation-img-wrap">
-                <div class="creation-emoji">📋</div>
-              </div>
-              <div class="creation-body">
-                <div class="creation-type ct-curriculum">Curriculum Architecture</div>
-                <h4>Industry 4.0 Learning Ecosystem</h4>
-                <p>Built comprehensive, SOP-driven curriculum frameworks covering PLC programming, embedded systems, industrial IoT, and automation workflows. Designed to be scalable across multiple centers with consistent delivery quality.</p>
-                <div class="creation-meta">
-                  <span>Multi-center Rollout</span><span>Standardized SOPs</span><span>PLC & IoT</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="creation-card" id="cr-4">
-              <div class="creation-img-wrap">
-                <div class="creation-emoji">🔬</div>
-              </div>
-              <div class="creation-body">
-                <div class="creation-type ct-lab">Lab Design</div>
-                <h4>Robotics Laboratory Setup</h4>
-                <p>Established fully functional robotics laboratories integrating embedded systems, industrial sensors, KUKA robotic arms, and smart manufacturing concepts. Created immersive environments where students interact with real-world industrial-grade equipment.</p>
-                <div class="creation-meta">
-                  <span>KUKA Systems</span><span>Smart Manufacturing</span><span>Live Equipment</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- ======== POETRY SECTION ======== -->
-        <div class="content-section" id="poetry-section">
-          <h3 class="section-heading">Poetry — Words from the Heart</h3>
-          <div class="poetry-grid">
-
-            <div class="poem-card" id="poem-1">
-              <span class="poem-tag tag-purple">Technology & Soul</span>
-              <h4>The Machine and the Dream</h4>
-              <div class="poem-lines">In circuits and code, I found my voice,
-A world of wires, deliberate choice.
-Each gear that turns, each motor's hum,
-Reminds me why I have become—
-
-Not just an engineer, but a dreamer too,
-Building futures, old and new.
-For in every robot's gentle sway,
+    <!-- ===================== POETRY ===================== -->
+    <section class="section section-gray" id="poetry">
+      <div class="container">
+        <div class="section-label">Poetry</div>
+        <h2 class="section-title">Words from<br/>the Heart.</h2>
+        <div class="poetry-grid">
+          <div class="poem" id="poem-1">
+            <div class="poem-tag pt-purple">Technology & Soul</div>
+            <h4 class="poem-title">The Machine and the Dream</h4>
+            <div class="poem-body">In circuits and code, I found my voice,<br/>
+A world of wires, deliberate choice.<br/>
+Each gear that turns, each motor's hum,<br/>
+Reminds me why I have become—<br/><br/>
+Not just an engineer, but a dreamer too,<br/>
+Building futures, old and new.<br/>
+For in every robot's gentle sway,<br/>
 I see a child's bright future day.</div>
-              <div class="poem-footer">✍️ Disha Goswami — On Engineering & Purpose</div>
-            </div>
-
-            <div class="poem-card" id="poem-2">
-              <span class="poem-tag tag-rose">For the Children</span>
-              <h4>Little Minds, Big Worlds</h4>
-              <div class="poem-lines">Give a child a wire, a board, a spark —
-Watch how they light up the dark.
-No textbook holds what wonder brings,
-When curious hands touch curious things.
-
-They ask the whys, they dare the hows,
-They make the future — here and now.
-So teach them not to fear the new,
+            <div class="poem-author">— Disha Goswami</div>
+          </div>
+          <div class="poem" id="poem-2">
+            <div class="poem-tag pt-rose">For Children</div>
+            <h4 class="poem-title">Little Minds, Big Worlds</h4>
+            <div class="poem-body">Give a child a wire, a board, a spark —<br/>
+Watch how they light up the dark.<br/>
+No textbook holds what wonder brings,<br/>
+When curious hands touch curious things.<br/><br/>
+They ask the whys, they dare the hows,<br/>
+They make the future — here and now.<br/>
+So teach them not to fear the new,<br/>
 The world is theirs — let them break through.</div>
-              <div class="poem-footer">✍️ Disha Goswami — On Teaching & Wonder</div>
-            </div>
-
-            <div class="poem-card" id="poem-3">
-              <span class="poem-tag tag-amber">Resilience</span>
-              <h4>One More Try</h4>
-              <div class="poem-lines">When the code won't run and the robot fails,
-When every plan and system derails —
-It is not the fall that defines the way,
-But the quiet voice that says: "Try today."
-
-For every error holds a key,
-Every failure — a chance to see.
-The path to progress, winding, long,
+            <div class="poem-author">— Disha Goswami</div>
+          </div>
+          <div class="poem" id="poem-3">
+            <div class="poem-tag pt-amber">Resilience</div>
+            <h4 class="poem-title">One More Try</h4>
+            <div class="poem-body">When the code won't run and the robot fails,<br/>
+When every plan and system derails —<br/>
+It is not the fall that defines the way,<br/>
+But the quiet voice that says: "Try today."<br/><br/>
+For every error holds a key,<br/>
+Every failure — a chance to see.<br/>
+The path to progress, winding, long,<br/>
 Is paved by those who stay strong.</div>
-              <div class="poem-footer">✍️ Disha Goswami — On Perseverance</div>
-            </div>
-
-            <div class="poem-card" id="poem-4">
-              <span class="poem-tag tag-green">Nature & Tech</span>
-              <h4>Roots and Circuits</h4>
-              <div class="poem-lines">Like roots that hold a tree in place,
-Foundations keep us in the race.
-Technology blooms from what we've learned,
-From seeds of knowledge, deeply earned.
-
-The tree bends wild in storms and rain,
-Yet its roots hold — and it stands again.
-So too the engineer must know:
-Your roots define how far you grow.</div>
-              <div class="poem-footer">✍️ Disha Goswami — On Growth & Grounding</div>
-            </div>
-
-            <div class="poem-card" id="poem-5">
-              <span class="poem-tag tag-purple">Leadership</span>
-              <h4>She Who Leads</h4>
-              <div class="poem-lines">Not with loudness, not with fear,
-She leads with vision, sharp and clear.
-Through boardrooms, labs, and open floors,
-She opens up the closed-shut doors.
-
-For leadership is not a throne —
-It's knowing you don't walk alone.
-She builds the team, she shares the light,
+            <div class="poem-author">— Disha Goswami</div>
+          </div>
+          <div class="poem" id="poem-4">
+            <div class="poem-tag pt-green">Leadership</div>
+            <h4 class="poem-title">She Who Leads</h4>
+            <div class="poem-body">Not with loudness, not with fear,<br/>
+She leads with vision, sharp and clear.<br/>
+Through boardrooms, labs, and open floors,<br/>
+She opens up the closed-shut doors.<br/><br/>
+For leadership is not a throne —<br/>
+It's knowing you don't walk alone.<br/>
+She builds the team, she shares the light,<br/>
 She turns the ordinary — bright.</div>
-              <div class="poem-footer">✍️ Disha Goswami — On Leadership & Purpose</div>
-            </div>
-
-            <div class="poem-card" id="poem-6">
-              <span class="poem-tag tag-rose">Hope</span>
-              <h4>Tomorrow's Engineer</h4>
-              <div class="poem-lines">Somewhere a girl picks up a wire,
-Her eyes ablaze with quiet fire.
-She doesn't know the path ahead —
-But her heart is full of hope instead.
-
-She'll stumble, fall, and rise and soar,
-Discover worlds worth fighting for.
-And when she builds what once was dream,
+            <div class="poem-author">— Disha Goswami</div>
+          </div>
+          <div class="poem" id="poem-5">
+            <div class="poem-tag pt-purple">Hope</div>
+            <h4 class="poem-title">Tomorrow's Engineer</h4>
+            <div class="poem-body">Somewhere a girl picks up a wire,<br/>
+Her eyes ablaze with quiet fire.<br/>
+She doesn't know the path ahead —<br/>
+But her heart is full of hope instead.<br/><br/>
+She'll stumble, fall, and rise and soar,<br/>
+Discover worlds worth fighting for.<br/>
+And when she builds what once was dream,<br/>
 Nothing will be what it seemed.</div>
-              <div class="poem-footer">✍️ Disha Goswami — For Every Girl in STEM</div>
-            </div>
-
+            <div class="poem-author">— Disha Goswami</div>
+          </div>
+          <div class="poem" id="poem-6">
+            <div class="poem-tag pt-rose">Nature & Tech</div>
+            <h4 class="poem-title">Roots and Circuits</h4>
+            <div class="poem-body">Like roots that hold a tree in place,<br/>
+Foundations keep us in the race.<br/>
+Technology blooms from what we've learned,<br/>
+From seeds of knowledge, deeply earned.<br/><br/>
+The tree bends wild in storms and rain,<br/>
+Yet its roots hold — and it stands again.<br/>
+So too the engineer must know:<br/>
+Your roots define how far you grow.</div>
+            <div class="poem-author">— Disha Goswami</div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <!-- Contact -->
-        <div class="content-section" id="contact-section">
-          <h3 class="section-heading">Get In Touch</h3>
-          <div class="contact-card">
-            <div class="contact-card-left">
-              <p class="contact-intro">Open to exciting opportunities in Robotics, Industry 4.0, Automation, and Program Leadership. Let's connect!</p>
-              <div class="contact-details">
-                <div class="contact-detail-row">
-                  <span class="cd-icon">📍</span>
-                  <span>Noida, Uttar Pradesh, India</span>
-                </div>
-                <div class="contact-detail-row">
-                  <span class="cd-icon">🎓</span>
-                  <span>BITS Pilani — M.Tech 2025</span>
-                </div>
-                <div class="contact-detail-row">
-                  <span class="cd-icon">💼</span>
-                  <span>3+ years in Robotics & Automation</span>
-                </div>
-              </div>
-              <a href="Disha_resume.pdf" download class="contact-resume-btn" id="contact-dl-resume">
-                <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                Download Resume
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-left">
+            <div class="section-label">Contact</div>
+            <h2 class="section-title">Let's Build<br/>Something Together.</h2>
+            <p class="contact-p">Whether you're looking for a program leader, a robotics expert, a training partner, or someone who bridges technology and people — I'd love to connect.</p>
+            <div class="contact-details">
+              <a href="mailto:dishagoswami2502@gmail.com" class="cd-row">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+                dishagoswami2502@gmail.com
               </a>
+              <a href="https://linkedin.com/in/disha-goswami" target="_blank" class="cd-row">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                linkedin.com/in/disha-goswami
+              </a>
+              <div class="cd-row">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                Noida, India · Open to Relocation
+              </div>
             </div>
-            <div class="contact-card-right">
-              <h4>Strengths</h4>
-              <div class="strengths-list">
-                <div class="str-item"><span>🎯</span> Technical Leadership</div>
-                <div class="str-item"><span>📋</span> Program Ownership</div>
-                <div class="str-item"><span>🗣️</span> Communication & Presentation</div>
-                <div class="str-item"><span>🤝</span> Stakeholder Management</div>
-                <div class="str-item"><span>💡</span> Problem Solving</div>
-                <div class="str-item"><span>👥</span> Team Coordination</div>
-                <div class="str-item"><span>🏫</span> Technical Mentorship</div>
-                <div class="str-item"><span>🔍</span> Detail-Oriented</div>
+            <a href="Disha_resume.pdf" download class="btn-primary" style="margin-top:28px; display:inline-flex; align-items:center; gap:8px;">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume
+            </a>
+          </div>
+          <div class="contact-right">
+            <div class="contact-card-stack">
+              <div class="ccs-card">
+                <div class="ccs-icon">🏢</div>
+                <div>
+                  <strong>Corporate Programs</strong>
+                  <p>CSR partnerships, robotics program design & delivery</p>
+                </div>
+              </div>
+              <div class="ccs-card">
+                <div class="ccs-icon">🎓</div>
+                <div>
+                  <strong>Education Initiatives</strong>
+                  <p>School programs, curriculum design, teacher training</p>
+                </div>
+              </div>
+              <div class="ccs-card">
+                <div class="ccs-icon">🤖</div>
+                <div>
+                  <strong>Technical Consulting</strong>
+                  <p>Robotics, Industry 4.0, IoT & automation advisory</p>
+                </div>
+              </div>
+              <div class="ccs-card">
+                <div class="ccs-icon">🎤</div>
+                <div>
+                  <strong>Speaking & Workshops</strong>
+                  <p>Events, summits, hands-on tech workshops & demonstrations</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-      </div><!-- /portfolio-tab -->
-    </main>
-  </div>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">DG<span>.</span></div>
+        <p class="footer-copy">© 2025 Disha Goswami · Robotics & Program Leader · India</p>
+        <div class="footer-links">
+          <a href="mailto:dishagoswami2502@gmail.com">Email</a>
+          <a href="Disha_resume.pdf" download>Resume</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- LIGHTBOX -->
   <div class="lightbox" id="lightbox">
     <button class="lb-close" id="lbClose">✕</button>
-    <img src="" alt="" class="lb-img" id="lbImg" />
-    <div class="lb-caption" id="lbCaption"></div>
+    <img class="lb-img" id="lbImg" src="" alt="" />
+    <p class="lb-cap" id="lbCap"></p>
   </div>
 
-  <script src="script.js?v=3"></script>
+  <script src="script.js?v=10"></script>
 </body>
 </html>
